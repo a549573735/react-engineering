@@ -36,8 +36,7 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            template: "./src/index.html",
-            filename:'index.[hash:5].html'
+            template: "./src/index.html"
         }),
         new webpack.HotModuleReplacementPlugin()
     ],
